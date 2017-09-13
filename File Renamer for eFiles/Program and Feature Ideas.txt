@@ -1,0 +1,30 @@
+2017-09-12
+File renamer for eFiles
+
+Left side current name
+Right side new name
+Real time updates
+
+
+Fields for stuff
+First Name; Middle Name; Last Name
+Exclude illegal characters, with notification
+Drag and drop files on to change/add to list
+execute button?
+auto add of (2) etc, unless I can rely on windows
+
+Last Name, First Name - Desctiption Fields
+
+Common list of things
+Fact Finder
+
+
+
+List of Categories that are available in eFiles to pre-categorize them in the file name for easy menu selection
+
+Preview of the file selected. Probably just in a different window
+
+pdf / tiff mostly, but obviously preseve the extension
+
+save settings, restore defaults, set "default" aka what shows on load (probably just persist)
+

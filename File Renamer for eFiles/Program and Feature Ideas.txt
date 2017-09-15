@@ -28,3 +28,6 @@ pdf / tiff mostly, but obviously preseve the extension
 
 save settings, restore defaults, set "default" aka what shows on load (probably just persist)
 
+Use
+FileIO.FileSystem.RenameFile
+to rename them

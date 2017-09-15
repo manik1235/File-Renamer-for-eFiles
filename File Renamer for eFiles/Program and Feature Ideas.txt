@@ -1,3 +1,8 @@
+2017-09-15 
+
+I really need to figure out the different uses for classes and structures. I think classes are going to be the way to go but I don't know how to use them properly yet.
+
+
 2017-09-12
 File renamer for eFiles
 
@@ -31,3 +36,4 @@ save settings, restore defaults, set "default" aka what shows on load (probably 
 Use
 FileIO.FileSystem.RenameFile
 to rename them
+

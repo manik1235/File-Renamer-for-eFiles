@@ -12,14 +12,14 @@
         Implements IList(Of String) ' It's a list, so use the standard list interface (Of String)
 
 
-        Structure PathAndFileNameStructure
+        Class PathAndFileNameStructure
             ' These are lists because there can be many files being changed at once.
             Dim FullPathAndFileName As List(Of String)  ' Holds the entire path and file name of the added file
             Dim PathOnly As List(Of String)             ' Holds the path portion only
             Dim OriginalFileNameOnly As List(Of String) ' Holds the file name portion only, including extension
             Dim ModifiedFileNameOnly As List(Of String) ' Holds the modified file name only, including extension
             Dim Extension As List(Of String)
-        End Structure
+        End Class
 
         Dim ItemData As PathAndFileNameStructure         ' Array of the structures that hold the files.
 
@@ -106,7 +106,7 @@
         End Function
     End Structure
 
-    Dim FileList As FileListStructure ' Variable to hold the file list data
+    Dim FileList As New FileListStructure ' Variable to hold the file list data
 
     Private Sub OriginalItemsCheckedListBox_DragDrop(sender As Object, e As DragEventArgs) Handles OriginalItemsCheckedListBox.DragDrop
         ' Code snippet is from:

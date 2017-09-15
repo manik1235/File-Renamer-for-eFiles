@@ -91,7 +91,7 @@ Partial Class Form1
         Me.BasePanel.Dock = System.Windows.Forms.DockStyle.Fill
         Me.BasePanel.Location = New System.Drawing.Point(0, 0)
         Me.BasePanel.Name = "BasePanel"
-        Me.BasePanel.Size = New System.Drawing.Size(922, 437)
+        Me.BasePanel.Size = New System.Drawing.Size(999, 595)
         Me.BasePanel.TabIndex = 0
         '
         'BaseTableLayoutPanel
@@ -114,7 +114,7 @@ Partial Class Form1
         Me.BaseTableLayoutPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
         Me.BaseTableLayoutPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
         Me.BaseTableLayoutPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70.0!))
-        Me.BaseTableLayoutPanel.Size = New System.Drawing.Size(922, 437)
+        Me.BaseTableLayoutPanel.Size = New System.Drawing.Size(999, 595)
         Me.BaseTableLayoutPanel.TabIndex = 0
         '
         'Panel5
@@ -124,7 +124,7 @@ Partial Class Form1
         Me.Panel5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel5.Location = New System.Drawing.Point(3, 3)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(916, 37)
+        Me.Panel5.Size = New System.Drawing.Size(993, 53)
         Me.Panel5.TabIndex = 0
         '
         'FlowLayoutPanel1
@@ -218,9 +218,9 @@ Partial Class Form1
         '
         Me.OriginalItemsPanel.Controls.Add(Me.OriginalItemsCheckedListBox)
         Me.OriginalItemsPanel.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.OriginalItemsPanel.Location = New System.Drawing.Point(3, 133)
+        Me.OriginalItemsPanel.Location = New System.Drawing.Point(3, 181)
         Me.OriginalItemsPanel.Name = "OriginalItemsPanel"
-        Me.OriginalItemsPanel.Size = New System.Drawing.Size(301, 301)
+        Me.OriginalItemsPanel.Size = New System.Drawing.Size(326, 411)
         Me.OriginalItemsPanel.TabIndex = 4
         '
         'OriginalItemsCheckedListBox
@@ -230,16 +230,16 @@ Partial Class Form1
         Me.OriginalItemsCheckedListBox.FormattingEnabled = True
         Me.OriginalItemsCheckedListBox.Location = New System.Drawing.Point(0, 0)
         Me.OriginalItemsCheckedListBox.Name = "OriginalItemsCheckedListBox"
-        Me.OriginalItemsCheckedListBox.Size = New System.Drawing.Size(301, 301)
+        Me.OriginalItemsCheckedListBox.Size = New System.Drawing.Size(326, 411)
         Me.OriginalItemsCheckedListBox.TabIndex = 0
         '
         'ModifiedItemsPanel
         '
         Me.ModifiedItemsPanel.Controls.Add(Me.ModifiedItemsCheckedListBox)
         Me.ModifiedItemsPanel.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.ModifiedItemsPanel.Location = New System.Drawing.Point(617, 133)
+        Me.ModifiedItemsPanel.Location = New System.Drawing.Point(668, 181)
         Me.ModifiedItemsPanel.Name = "ModifiedItemsPanel"
-        Me.ModifiedItemsPanel.Size = New System.Drawing.Size(302, 301)
+        Me.ModifiedItemsPanel.Size = New System.Drawing.Size(328, 411)
         Me.ModifiedItemsPanel.TabIndex = 3
         '
         'ModifiedItemsCheckedListBox
@@ -248,16 +248,16 @@ Partial Class Form1
         Me.ModifiedItemsCheckedListBox.FormattingEnabled = True
         Me.ModifiedItemsCheckedListBox.Location = New System.Drawing.Point(0, 0)
         Me.ModifiedItemsCheckedListBox.Name = "ModifiedItemsCheckedListBox"
-        Me.ModifiedItemsCheckedListBox.Size = New System.Drawing.Size(302, 301)
+        Me.ModifiedItemsCheckedListBox.Size = New System.Drawing.Size(328, 411)
         Me.ModifiedItemsCheckedListBox.TabIndex = 1
         '
         'ModifiersPanel
         '
         Me.ModifiersPanel.Controls.Add(Me.ModifiersTableLayoutPanel)
         Me.ModifiersPanel.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.ModifiersPanel.Location = New System.Drawing.Point(310, 133)
+        Me.ModifiersPanel.Location = New System.Drawing.Point(335, 181)
         Me.ModifiersPanel.Name = "ModifiersPanel"
-        Me.ModifiersPanel.Size = New System.Drawing.Size(301, 301)
+        Me.ModifiersPanel.Size = New System.Drawing.Size(327, 411)
         Me.ModifiersPanel.TabIndex = 2
         '
         'ModifiersTableLayoutPanel
@@ -282,34 +282,34 @@ Partial Class Form1
         Me.ModifiersTableLayoutPanel.Name = "ModifiersTableLayoutPanel"
         Me.ModifiersTableLayoutPanel.RowCount = 1
         Me.ModifiersTableLayoutPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.ModifiersTableLayoutPanel.Size = New System.Drawing.Size(301, 27)
+        Me.ModifiersTableLayoutPanel.Size = New System.Drawing.Size(327, 27)
         Me.ModifiersTableLayoutPanel.TabIndex = 9
         '
         'Modifier3ComboBox
         '
         Me.Modifier3ComboBox.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Modifier3ComboBox.FormattingEnabled = True
-        Me.Modifier3ComboBox.Location = New System.Drawing.Point(129, 3)
+        Me.Modifier3ComboBox.Location = New System.Drawing.Point(141, 3)
         Me.Modifier3ComboBox.Name = "Modifier3ComboBox"
-        Me.Modifier3ComboBox.Size = New System.Drawing.Size(36, 21)
+        Me.Modifier3ComboBox.Size = New System.Drawing.Size(40, 21)
         Me.Modifier3ComboBox.TabIndex = 6
         '
         'Modifier4ComboBox
         '
         Me.Modifier4ComboBox.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Modifier4ComboBox.FormattingEnabled = True
-        Me.Modifier4ComboBox.Location = New System.Drawing.Point(171, 3)
+        Me.Modifier4ComboBox.Location = New System.Drawing.Point(187, 3)
         Me.Modifier4ComboBox.Name = "Modifier4ComboBox"
-        Me.Modifier4ComboBox.Size = New System.Drawing.Size(36, 21)
+        Me.Modifier4ComboBox.Size = New System.Drawing.Size(40, 21)
         Me.Modifier4ComboBox.TabIndex = 5
         '
         'Modifier2ComboBox
         '
         Me.Modifier2ComboBox.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Modifier2ComboBox.FormattingEnabled = True
-        Me.Modifier2ComboBox.Location = New System.Drawing.Point(87, 3)
+        Me.Modifier2ComboBox.Location = New System.Drawing.Point(95, 3)
         Me.Modifier2ComboBox.Name = "Modifier2ComboBox"
-        Me.Modifier2ComboBox.Size = New System.Drawing.Size(36, 21)
+        Me.Modifier2ComboBox.Size = New System.Drawing.Size(40, 21)
         Me.Modifier2ComboBox.TabIndex = 4
         '
         'Modifier0ComboBox
@@ -318,43 +318,43 @@ Partial Class Form1
         Me.Modifier0ComboBox.FormattingEnabled = True
         Me.Modifier0ComboBox.Location = New System.Drawing.Point(3, 3)
         Me.Modifier0ComboBox.Name = "Modifier0ComboBox"
-        Me.Modifier0ComboBox.Size = New System.Drawing.Size(36, 21)
+        Me.Modifier0ComboBox.Size = New System.Drawing.Size(40, 21)
         Me.Modifier0ComboBox.TabIndex = 3
         '
         'Modifier1ComboBox
         '
         Me.Modifier1ComboBox.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Modifier1ComboBox.FormattingEnabled = True
-        Me.Modifier1ComboBox.Location = New System.Drawing.Point(45, 3)
+        Me.Modifier1ComboBox.Location = New System.Drawing.Point(49, 3)
         Me.Modifier1ComboBox.Name = "Modifier1ComboBox"
-        Me.Modifier1ComboBox.Size = New System.Drawing.Size(36, 21)
+        Me.Modifier1ComboBox.Size = New System.Drawing.Size(40, 21)
         Me.Modifier1ComboBox.TabIndex = 0
         '
         'Modifier6ComboBox
         '
         Me.Modifier6ComboBox.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Modifier6ComboBox.FormattingEnabled = True
-        Me.Modifier6ComboBox.Location = New System.Drawing.Point(255, 3)
+        Me.Modifier6ComboBox.Location = New System.Drawing.Point(279, 3)
         Me.Modifier6ComboBox.Name = "Modifier6ComboBox"
-        Me.Modifier6ComboBox.Size = New System.Drawing.Size(43, 21)
+        Me.Modifier6ComboBox.Size = New System.Drawing.Size(45, 21)
         Me.Modifier6ComboBox.TabIndex = 2
         '
         'Modifier5ComboBox
         '
         Me.Modifier5ComboBox.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Modifier5ComboBox.FormattingEnabled = True
-        Me.Modifier5ComboBox.Location = New System.Drawing.Point(213, 3)
+        Me.Modifier5ComboBox.Location = New System.Drawing.Point(233, 3)
         Me.Modifier5ComboBox.Name = "Modifier5ComboBox"
-        Me.Modifier5ComboBox.Size = New System.Drawing.Size(36, 21)
+        Me.Modifier5ComboBox.Size = New System.Drawing.Size(40, 21)
         Me.Modifier5ComboBox.TabIndex = 1
         '
         'ModifierTopBasePanel
         '
         Me.ModifierTopBasePanel.Controls.Add(Me.ModifierTopTableLayoutPanel)
         Me.ModifierTopBasePanel.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.ModifierTopBasePanel.Location = New System.Drawing.Point(310, 46)
+        Me.ModifierTopBasePanel.Location = New System.Drawing.Point(335, 62)
         Me.ModifierTopBasePanel.Name = "ModifierTopBasePanel"
-        Me.ModifierTopBasePanel.Size = New System.Drawing.Size(301, 81)
+        Me.ModifierTopBasePanel.Size = New System.Drawing.Size(327, 113)
         Me.ModifierTopBasePanel.TabIndex = 5
         '
         'ModifierTopTableLayoutPanel
@@ -387,118 +387,118 @@ Partial Class Form1
         Me.ModifierTopTableLayoutPanel.RowCount = 2
         Me.ModifierTopTableLayoutPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.ModifierTopTableLayoutPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.ModifierTopTableLayoutPanel.Size = New System.Drawing.Size(301, 81)
+        Me.ModifierTopTableLayoutPanel.Size = New System.Drawing.Size(327, 113)
         Me.ModifierTopTableLayoutPanel.TabIndex = 8
         '
         'Options6Panel
         '
         Me.Options6Panel.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Options6Panel.Location = New System.Drawing.Point(255, 3)
+        Me.Options6Panel.Location = New System.Drawing.Point(279, 3)
         Me.Options6Panel.Name = "Options6Panel"
-        Me.Options6Panel.Size = New System.Drawing.Size(43, 55)
+        Me.Options6Panel.Size = New System.Drawing.Size(45, 87)
         Me.Options6Panel.TabIndex = 17
         '
         'Options5Panel
         '
         Me.Options5Panel.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Options5Panel.Location = New System.Drawing.Point(213, 3)
+        Me.Options5Panel.Location = New System.Drawing.Point(233, 3)
         Me.Options5Panel.Name = "Options5Panel"
-        Me.Options5Panel.Size = New System.Drawing.Size(36, 55)
+        Me.Options5Panel.Size = New System.Drawing.Size(40, 87)
         Me.Options5Panel.TabIndex = 16
         '
         'Options4Panel
         '
         Me.Options4Panel.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Options4Panel.Location = New System.Drawing.Point(171, 3)
+        Me.Options4Panel.Location = New System.Drawing.Point(187, 3)
         Me.Options4Panel.Name = "Options4Panel"
-        Me.Options4Panel.Size = New System.Drawing.Size(36, 55)
+        Me.Options4Panel.Size = New System.Drawing.Size(40, 87)
         Me.Options4Panel.TabIndex = 15
         '
         'Options3Panel
         '
         Me.Options3Panel.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Options3Panel.Location = New System.Drawing.Point(129, 3)
+        Me.Options3Panel.Location = New System.Drawing.Point(141, 3)
         Me.Options3Panel.Name = "Options3Panel"
-        Me.Options3Panel.Size = New System.Drawing.Size(36, 55)
+        Me.Options3Panel.Size = New System.Drawing.Size(40, 87)
         Me.Options3Panel.TabIndex = 14
         '
         'Options2Panel
         '
         Me.Options2Panel.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Options2Panel.Location = New System.Drawing.Point(87, 3)
+        Me.Options2Panel.Location = New System.Drawing.Point(95, 3)
         Me.Options2Panel.Name = "Options2Panel"
-        Me.Options2Panel.Size = New System.Drawing.Size(36, 55)
+        Me.Options2Panel.Size = New System.Drawing.Size(40, 87)
         Me.Options2Panel.TabIndex = 13
         '
         'Options1Panel
         '
         Me.Options1Panel.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Options1Panel.Location = New System.Drawing.Point(45, 3)
+        Me.Options1Panel.Location = New System.Drawing.Point(49, 3)
         Me.Options1Panel.Name = "Options1Panel"
-        Me.Options1Panel.Size = New System.Drawing.Size(36, 55)
+        Me.Options1Panel.Size = New System.Drawing.Size(40, 87)
         Me.Options1Panel.TabIndex = 12
         '
         'ModifierTop2ComboBox
         '
         Me.ModifierTop2ComboBox.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ModifierTop2ComboBox.FormattingEnabled = True
-        Me.ModifierTop2ComboBox.Location = New System.Drawing.Point(87, 64)
+        Me.ModifierTop2ComboBox.Location = New System.Drawing.Point(95, 96)
         Me.ModifierTop2ComboBox.Name = "ModifierTop2ComboBox"
-        Me.ModifierTop2ComboBox.Size = New System.Drawing.Size(36, 21)
+        Me.ModifierTop2ComboBox.Size = New System.Drawing.Size(40, 21)
         Me.ModifierTop2ComboBox.TabIndex = 10
         '
         'ModifierTop4ComboBox
         '
         Me.ModifierTop4ComboBox.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ModifierTop4ComboBox.FormattingEnabled = True
-        Me.ModifierTop4ComboBox.Location = New System.Drawing.Point(171, 64)
+        Me.ModifierTop4ComboBox.Location = New System.Drawing.Point(187, 96)
         Me.ModifierTop4ComboBox.Name = "ModifierTop4ComboBox"
-        Me.ModifierTop4ComboBox.Size = New System.Drawing.Size(36, 21)
+        Me.ModifierTop4ComboBox.Size = New System.Drawing.Size(40, 21)
         Me.ModifierTop4ComboBox.TabIndex = 9
         '
         'ModifierTop5ComboBox
         '
         Me.ModifierTop5ComboBox.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ModifierTop5ComboBox.FormattingEnabled = True
-        Me.ModifierTop5ComboBox.Location = New System.Drawing.Point(213, 64)
+        Me.ModifierTop5ComboBox.Location = New System.Drawing.Point(233, 96)
         Me.ModifierTop5ComboBox.Name = "ModifierTop5ComboBox"
-        Me.ModifierTop5ComboBox.Size = New System.Drawing.Size(36, 21)
+        Me.ModifierTop5ComboBox.Size = New System.Drawing.Size(40, 21)
         Me.ModifierTop5ComboBox.TabIndex = 8
         '
         'ModifierTop6ComboBox
         '
         Me.ModifierTop6ComboBox.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ModifierTop6ComboBox.FormattingEnabled = True
-        Me.ModifierTop6ComboBox.Location = New System.Drawing.Point(255, 64)
+        Me.ModifierTop6ComboBox.Location = New System.Drawing.Point(279, 96)
         Me.ModifierTop6ComboBox.Name = "ModifierTop6ComboBox"
-        Me.ModifierTop6ComboBox.Size = New System.Drawing.Size(43, 21)
+        Me.ModifierTop6ComboBox.Size = New System.Drawing.Size(45, 21)
         Me.ModifierTop6ComboBox.TabIndex = 7
         '
         'ModifierTop3ComboBox
         '
         Me.ModifierTop3ComboBox.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ModifierTop3ComboBox.FormattingEnabled = True
-        Me.ModifierTop3ComboBox.Location = New System.Drawing.Point(129, 64)
+        Me.ModifierTop3ComboBox.Location = New System.Drawing.Point(141, 96)
         Me.ModifierTop3ComboBox.Name = "ModifierTop3ComboBox"
-        Me.ModifierTop3ComboBox.Size = New System.Drawing.Size(36, 21)
+        Me.ModifierTop3ComboBox.Size = New System.Drawing.Size(40, 21)
         Me.ModifierTop3ComboBox.TabIndex = 6
         '
         'ModifierTopComboBox
         '
         Me.ModifierTopComboBox.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ModifierTopComboBox.FormattingEnabled = True
-        Me.ModifierTopComboBox.Location = New System.Drawing.Point(3, 64)
+        Me.ModifierTopComboBox.Location = New System.Drawing.Point(3, 96)
         Me.ModifierTopComboBox.Name = "ModifierTopComboBox"
-        Me.ModifierTopComboBox.Size = New System.Drawing.Size(36, 21)
+        Me.ModifierTopComboBox.Size = New System.Drawing.Size(40, 21)
         Me.ModifierTopComboBox.TabIndex = 4
         '
         'ComboBox4ModifierTop1ComboBox
         '
         Me.ComboBox4ModifierTop1ComboBox.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ComboBox4ModifierTop1ComboBox.FormattingEnabled = True
-        Me.ComboBox4ModifierTop1ComboBox.Location = New System.Drawing.Point(45, 64)
+        Me.ComboBox4ModifierTop1ComboBox.Location = New System.Drawing.Point(49, 96)
         Me.ComboBox4ModifierTop1ComboBox.Name = "ComboBox4ModifierTop1ComboBox"
-        Me.ComboBox4ModifierTop1ComboBox.Size = New System.Drawing.Size(36, 21)
+        Me.ComboBox4ModifierTop1ComboBox.Size = New System.Drawing.Size(40, 21)
         Me.ComboBox4ModifierTop1ComboBox.TabIndex = 3
         '
         'Options0Panel
@@ -506,7 +506,7 @@ Partial Class Form1
         Me.Options0Panel.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Options0Panel.Location = New System.Drawing.Point(3, 3)
         Me.Options0Panel.Name = "Options0Panel"
-        Me.Options0Panel.Size = New System.Drawing.Size(36, 55)
+        Me.Options0Panel.Size = New System.Drawing.Size(40, 87)
         Me.Options0Panel.TabIndex = 11
         '
         'LeftOptionsPanel
@@ -514,9 +514,9 @@ Partial Class Form1
         Me.LeftOptionsPanel.Controls.Add(Me.Label10)
         Me.LeftOptionsPanel.Controls.Add(Me.Label8)
         Me.LeftOptionsPanel.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.LeftOptionsPanel.Location = New System.Drawing.Point(3, 46)
+        Me.LeftOptionsPanel.Location = New System.Drawing.Point(3, 62)
         Me.LeftOptionsPanel.Name = "LeftOptionsPanel"
-        Me.LeftOptionsPanel.Size = New System.Drawing.Size(301, 81)
+        Me.LeftOptionsPanel.Size = New System.Drawing.Size(326, 113)
         Me.LeftOptionsPanel.TabIndex = 7
         '
         'Label10
@@ -532,7 +532,7 @@ Partial Class Form1
         '
         Me.Label8.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(248, 45)
+        Me.Label8.Location = New System.Drawing.Point(273, 45)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(50, 13)
         Me.Label8.TabIndex = 7
@@ -542,9 +542,9 @@ Partial Class Form1
         '
         Me.RightOptionsPanel.Controls.Add(Me.AddRemoveModifiersFlowLayoutPanel)
         Me.RightOptionsPanel.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.RightOptionsPanel.Location = New System.Drawing.Point(617, 46)
+        Me.RightOptionsPanel.Location = New System.Drawing.Point(668, 62)
         Me.RightOptionsPanel.Name = "RightOptionsPanel"
-        Me.RightOptionsPanel.Size = New System.Drawing.Size(302, 81)
+        Me.RightOptionsPanel.Size = New System.Drawing.Size(328, 113)
         Me.RightOptionsPanel.TabIndex = 8
         '
         'AddRemoveModifiersFlowLayoutPanel
@@ -581,7 +581,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(922, 437)
+        Me.ClientSize = New System.Drawing.Size(999, 595)
         Me.Controls.Add(Me.BasePanel)
         Me.Name = "Form1"
         Me.Text = "MainForm"

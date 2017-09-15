@@ -31,7 +31,3 @@ save settings, restore defaults, set "default" aka what shows on load (probably 
 Use
 FileIO.FileSystem.RenameFile
 to rename them
-
-2017-09-15 Added thru webinterface
-
-2017-09-15 1.42p Added thru VS
